@@ -1,6 +1,6 @@
 ## About UserInfo
 
-UserInfo is project is my weekend project. It demonstrate the use of ORM relationships, customize pagination, validation, exception handling, along with Ajax, Javascript, jQuery, SASS ofcourse using webpack to manage assets.
+UserInfo is my weekend project. It demonstrate the use of ORM relationships, customize pagination, validation, exception handling, along with Ajax, Javascript, jQuery, SASS ofcourse using webpack to manage assets. The application simpy stores user information and allows to view the list of users. Validation messages are bilingual and handle both in server side and client side. Depending on the province different format for salary is accepted. i.e 2 different formats, one for QC and another for other provinces. 12,000.00 and 12.000,00 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
