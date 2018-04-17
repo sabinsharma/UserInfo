@@ -1,0 +1,354 @@
+/*Form Styling*/
+div#user_form_row{
+  padding: 0 2% 2% 2%;
+}
+
+#exception_message{
+  display: none;
+}
+
+#form_container{
+  background-color: #f1f1f1;
+  height:89.5vh
+ /* width:96%;
+  margin:0 2% 2rem 2%;*/
+}
+
+#form_wrapper{
+  width:60%;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+
+
+label,.required{
+font-size: .7rem;
+}
+
+.required{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+input[type="text"]{
+  border:2px solid #f1f1f1;
+  border-radius: unset;
+  font-family: "Roboto Medium";
+}
+
+
+#div_select{
+  display: block;
+  width:100%;
+  padding: 0.5rem 1.6rem;
+  border:2px solid #f1f1f1;
+  height:calc(2.3rem + 4px);
+  position: relative;
+  text-align: right;
+}
+
+#div_select:focus{
+  border-color: #80bdff;
+
+}
+
+
+#div_select>input[type=text]{
+  position: absolute;
+  top:0;
+  width:95%;
+  left:0;
+  border: none;
+  background-color: #fff;
+}
+
+#custom_select{
+  width:100.2%;
+  position: absolute;
+  top:2.4rem;
+  border: 2px solid #f1f1f1;
+  margin-left: -1.7rem;
+  padding: 0;
+  height: 9.7rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 1;
+  background-color: #fff;
+  text-align: left;
+}
+#custom_select>li{
+  list-style: none;
+  padding-left: 1.2rem;
+  font-family: "Roboto Medium";
+}
+
+#custom_select>li:hover{
+  background-color: #39bef5;
+}
+
+div#button_wrapper>input[type="submit"]{
+border-radius: unset;
+padding: 0.5rem 3%;
+text-transform: uppercase;
+font-family: "Roboto Medium";
+font-size:.7rem;
+}
+
+.error{
+  display: flex;
+  margin-top:.25rem;
+  padding: 0;
+  font-size: 0.75rem;
+  color: red;
+
+}
+
+.error>ul{
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.error>ul>li{
+  list-style: none;
+}
+
+#div_select>.error{
+  margin-left:-2rem;
+  padding-top: .3rem;
+}
+
+div#salaryError{
+  margin-top: 1rem;
+}
+
+div#button_wrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*END Form Styling*/
+
+/*Table for displaying user information*/
+div#user_info_row{
+  justify-content: center;
+  background: #f1f1f1;
+  height: 93.9vh;
+}
+
+div#user_info_content_wrapper_row{
+  justify-content: center;
+  margin: 3rem 0;
+  background-color: #F2F2F2;
+}
+
+div#message{
+  color:#fff;
+  background-color: #2797DE;
+  border-color: none;
+  text-align: center;
+}
+
+div#table_wrapper{
+  background-color: #fff;
+  margin-top: 1.6rem;
+  padding:1.5rem;
+}
+
+div#table_wrapper .table{
+  font-family: "Roboto Medium";
+  font-size:0.8rem;
+  width:fit-content;
+  max-width: 100%;
+}
+
+div#table_wrapper .table td{
+  border: unset;
+}
+
+div#table_wrapper .table td:nth-child(3n){
+  color:#c9c3c3;
+  
+}
+
+div#table_wrapper .table td:first-child, div#table_wrapper .table td:nth-child(even){
+  color:#888888;
+}
+
+// #info_wrapper{
+//   border: 1px dashed #0b2e13;
+// }
+
+// #info_wrapper>.table th,#info_wrapper>.table td{
+//   border-top: none;
+// }
+
+/*End of css for displaying user information*/
+
+/*Css for main layout page*/
+
+div#main_container{
+ /* border:1px solid red;*/
+  /*height: 100vh;*/
+  background-color: #fff;
+}
+
+//set the horizontal alignment of the row's content to center.
+div#navbar_wrapper_row{
+  display: flex;
+  justify-content: center;
+}
+//Centers the navigation bar
+div#navbar_wrapper_col{
+  display: flex;
+  justify-content: center;
+  padding: .7rem 0 .7rem 0;
+  /*border:1px solid blue;*/
+
+}
+
+.nav_ul_item,label{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  color:#939090;
+}
+
+.seprator{
+  color:#cccccc;
+  font-size: .9rem;
+  margin-top: .3rem;
+}
+
+.nav-item>div:hover{
+  color: #39bef5;
+  cursor:pointer;
+}
+
+.active{
+  color: #39bef5;
+}
+
+/*div#child_container_col{
+  border:1px solid orange;
+  height:100vh;
+}*/
+
+/*End of css for main layout page*/
+
+/*CSS for child  pages */
+
+/*CSS for listing page(index.blade.php)*/
+div#user_info_listing_row{
+  background-color: #efefef;
+  justify-content: center;
+}
+
+/*div#user_info_listing_col{
+  padding:2rem 0 3rem 0;
+}*/
+
+div#user_info_table_wrapper_row{
+  justify-content: center;
+}
+
+#custom_table{
+  padding-top:2rem;
+}
+
+
+.custom_table_flex_sa{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.custom_table_wrapper_bg{
+  background-color: #3e4249;
+}
+
+#custom_table_header{
+  width:95%;
+  padding: .75rem;
+  font-family: "Roboto Medium";
+  font-weight: 500;
+  color: #fff;
+}
+
+.custom_table_body_bg{
+  background-color: #fff;
+}
+
+#custom_table_body{
+  padding: .5rem;
+  border-bottom: 1px solid #ccc;
+  width:95%;
+  font-family: 'Roboto Light';
+  font-weight: 500;
+  color: #495057;
+}
+
+.custom_table_body_bg:last-child>#custom_table_body:last-child{
+  border-bottom: unset;
+  padding:.5rem .5rem 1.5rem .5rem;
+}
+
+.custom_table_child_item{
+  width:16.667%;
+}
+
+.custom_table_child_item.custom_table_flex_sa{
+  justify-content: space-between;
+}
+
+.actions_child_item{
+  width:48%;
+}
+
+#actions_child_item_seprator{
+  width: 9%;
+}
+
+#actions_child_item_wrapper{
+  width:50%
+}
+
+.actions_child_item>a{
+  text-decoration: none;
+  color:#495057;
+}
+
+#pagination_row{
+  justify-content: center;
+  display: flex;
+}
+
+#pagination_row ul.pagination{
+  justify-content: center;
+  margin-top: .7rem;
+}
+
+#pagination_row .page-link{
+  color: #3E4249;
+}
+
+#pagination_row .page-item.active .page-link,#pagination_row .page-link:hover{
+  background-color: #3E4249;
+  color: #fff;
+  border-color:#241e1e;
+}
+
+#pagination_row .page-item{
+  font-family: "Roboto Light";
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+#pagination_row .page-item:first-child>.page-link, #pagination_row .page-item:last-child>.page-link{
+  color:#ccc;
+}
+/*End of CSS for listing page(index.blade.php)*/
+/*End of CSS for child pages*/
