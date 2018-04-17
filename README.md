@@ -1,3 +1,7 @@
+## About UserInfo
+
+UserInfo is project is my weekend project. It demonstrate the use of ORM relationships, customize pagination, validation, exception handling, along with Ajax, Javascript, jQuery, SASS ofcourse using webpack to manage assets.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
